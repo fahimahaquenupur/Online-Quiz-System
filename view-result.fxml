@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #E6E6FA;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.edu.seu.onlinequiz.controllers.ViewResultController">
+   <children>
+      <Label layoutX="400.0" layoutY="23.0" text="View Result" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchField" layoutX="33.0" layoutY="87.0" prefHeight="25.0" prefWidth="728.0" promptText="Type here to search...." />
+      <TableView fx:id="resultTable" layoutX="33.0" layoutY="139.0" prefHeight="237.0" prefWidth="728.0">
+        <columns>
+          <TableColumn fx:id="titleCol" prefWidth="258.6666679382324" text="Quiz Title" />
+          <TableColumn fx:id="nameCol" prefWidth="224.6666259765625" text="Student Name" />
+            <TableColumn fx:id="scoreCol" prefWidth="98.66668701171875" text="Score" />
+            <TableColumn fx:id="dateCol" prefWidth="149.33331298828125" text="Submission Date" />
+        </columns>
+      </TableView>
+      <Label fx:id="highestLabel" layoutX="33.0" layoutY="406.0" prefHeight="17.0" prefWidth="315.0" />
+      <Label fx:id="lowestLabel" layoutX="33.0" layoutY="445.0" prefHeight="17.0" prefWidth="315.0" />
+      <Label fx:id="averageLabel" layoutX="33.0" layoutY="481.0" prefHeight="17.0" prefWidth="315.0" />
+      <Button layoutX="374.0" layoutY="546.0" mnemonicParsing="false" onAction="#backEvent" text="Back" />
+   </children>
+</AnchorPane>

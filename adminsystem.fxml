@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #E6E6FA;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.edu.seu.onlinequiz.controllers.AdminSystemController">
+   <children>
+      <Label layoutX="369.0" layoutY="36.0" text="Admin System" underline="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ListView fx:id="logListView" layoutX="56.0" layoutY="117.0" prefHeight="347.0" prefWidth="707.0" />
+      <Button layoutX="725.0" layoutY="41.0" mnemonicParsing="false" onAction="#handleBack" text="Back" />
+      <Button layoutX="399.0" layoutY="497.0" mnemonicParsing="false" onAction="#handleExport" text="Export" />
+   </children>
+</AnchorPane>

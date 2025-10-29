@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c2aaab7-be4c-4c67-ae7b-d6f0030cb30e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2xKIQM3fKEl8tM1vrfTGpxQzNwU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Online Quiz" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Online Quiz" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c2aaab7-be4c-4c67-ae7b-d6f0030cb30e" name="Changes" comment="" />
+      <created>1747680322292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747680322292</updated>
+      <workItem from="1747680324528" duration="4171000" />
+      <workItem from="1747686668223" duration="1782000" />
+      <workItem from="1747766465023" duration="631000" />
+      <workItem from="1747803834202" duration="79000" />
+      <workItem from="1748194891373" duration="6085000" />
+      <workItem from="1748242880832" duration="798000" />
+      <workItem from="1749150196753" duration="2708000" />
+      <workItem from="1749394908064" duration="3339000" />
+      <workItem from="1749410733001" duration="1139000" />
+      <workItem from="1749479077883" duration="4081000" />
+      <workItem from="1749483287995" duration="1134000" />
+      <workItem from="1749486349160" duration="663000" />
+      <workItem from="1749487103004" duration="577000" />
+      <workItem from="1749488076634" duration="7104000" />
+      <workItem from="1749497272235" duration="3314000" />
+      <workItem from="1749537377284" duration="765000" />
+      <workItem from="1749538471697" duration="5020000" />
+      <workItem from="1749568235785" duration="738000" />
+      <workItem from="1749569157671" duration="2682000" />
+      <workItem from="1749573157825" duration="715000" />
+      <workItem from="1749576803328" duration="11634000" />
+      <workItem from="1749753995627" duration="4848000" />
+      <workItem from="1749890146419" duration="538000" />
+      <workItem from="1749890865984" duration="78000" />
+      <workItem from="1749890969642" duration="350000" />
+      <workItem from="1749891385590" duration="54000" />
+      <workItem from="1749931727474" duration="2359000" />
+      <workItem from="1749980038851" duration="2318000" />
+      <workItem from="1749982415306" duration="8000" />
+      <workItem from="1749996147731" duration="8451000" />
+      <workItem from="1750009789816" duration="1960000" />
+      <workItem from="1750012380872" duration="8311000" />
+      <workItem from="1750268172279" duration="8429000" />
+      <workItem from="1750278667566" duration="3491000" />
+      <workItem from="1750327275581" duration="3956000" />
+      <workItem from="1750343957715" duration="17930000" />
+      <workItem from="1750364602230" duration="300000" />
+      <workItem from="1750395941787" duration="13356000" />
+      <workItem from="1750608040210" duration="14252000" />
+      <workItem from="1750622839642" duration="1751000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

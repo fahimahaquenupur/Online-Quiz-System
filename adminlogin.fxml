@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.edu.seu.onlinequiz.controllers.AdminLoginController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="822.0" layoutX="-17.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Images/360_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Label layoutX="118.0" layoutY="107.0" prefHeight="69.0" prefWidth="159.0" text="Admin" textFill="#00ddff">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usernameField" layoutX="44.0" layoutY="223.0" prefHeight="41.0" prefWidth="284.0" promptText="Username">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="14.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="passwordField" layoutX="44.0" layoutY="306.0" prefHeight="41.0" prefWidth="284.0" promptText="Password">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="14.0" />
+               </font>
+            </PasswordField>
+            <Button layoutX="164.0" layoutY="396.0" mnemonicParsing="false" onAction="#goToAdminDashboard" prefHeight="41.0" prefWidth="68.0" text="Login" underline="true" />
+            <Button layoutX="700.0" layoutY="37.0" mnemonicParsing="false" onAction="#backEvent" prefHeight="25.0" prefWidth="51.0" text="Back" />
+            <Label fx:id="passError" layoutX="60.0" layoutY="487.0" prefHeight="17.0" prefWidth="297.0" textFill="RED" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.edu.seu.onlinequiz.controllers.WelcomeController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Images/360_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-4.0" layoutY="-3.0" prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Label layoutX="72.0" layoutY="102.0" prefHeight="40.0" prefWidth="297.0" text="Select Your Role" textFill="#00a6ff" underline="true">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="40.0" />
+               </font>
+            </Label>
+            <Button layoutX="88.0" layoutY="217.0" mnemonicParsing="false" onAction="#goToAdmin" prefHeight="34.0" prefWidth="238.0" style="-fx-background-color: #ebc509;" text="Admin" textFill="#2b260a">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="88.0" layoutY="309.0" mnemonicParsing="false" onAction="#goToTeacher" prefHeight="34.0" prefWidth="238.0" style="-fx-background-color: #ebc509;" text="Teacher" textFill="#2b260a">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="88.0" layoutY="399.0" mnemonicParsing="false" onAction="#goToStudent" prefHeight="34.0" prefWidth="238.0" style="-fx-background-color: #ebc509;" text="Student" textFill="#2b260a">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="161.0" layoutY="514.0" mnemonicParsing="false" onAction="#registrationEvent" style="-fx-background-color: #ebc509;" text="Register here">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="134.0" layoutY="494.0" text="Don't have an account?" textFill="WHITE" underline="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

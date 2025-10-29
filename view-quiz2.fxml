@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bd.edu.seu.onlinequiz.controllers.ViewQuiz2Controller">
+   <children>
+      <AnchorPane prefHeight="610.0" prefWidth="810.0" style="-fx-background-color: #E6E6FA;">
+         <children>
+            <Label layoutX="400.0" layoutY="27.0" text="View Quiz" underline="true">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="searchField" layoutX="35.0" layoutY="87.0" prefHeight="37.0" prefWidth="731.0" promptText="Type here to search...." />
+            <TableView fx:id="quizTable" layoutX="34.0" layoutY="148.0" prefHeight="333.0" prefWidth="731.0">
+               <columns>
+                  <TableColumn fx:id="titleCol" prefWidth="171.99999618530273" text="Title" />
+                  <TableColumn fx:id="descriptionCol" prefWidth="271.3333282470703" text="Description" />
+                  <TableColumn fx:id="durationCol" prefWidth="135.33334350585938" text="Duration" />
+                  <TableColumn fx:id="totalMarksCol" prefWidth="150.66670735677087" text="Total Marks" />
+               </columns>
+            </TableView>
+            <Button layoutX="678.0" layoutY="570.0" mnemonicParsing="false" onAction="#backEvent" text="Back" />
+            <Button layoutX="374.0" layoutY="513.0" mnemonicParsing="false" onAction="#deleteEvent" text="Delete" />
+            <Label fx:id="deleteLabel" layoutX="256.0" layoutY="561.0" prefHeight="17.0" prefWidth="279.0" text="                        " textFill="#0a7b2a" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
